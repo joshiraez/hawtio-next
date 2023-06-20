@@ -54,7 +54,6 @@ export const JmxTreeView: React.FunctionComponent = () => {
     if (treeElements.length === 0) setFilteredTree(tree.getTree())
     else {
       setFilteredTree(treeElements)
-      setExpanded(ExpansionValue.ExpandAll)
     }
   }
 

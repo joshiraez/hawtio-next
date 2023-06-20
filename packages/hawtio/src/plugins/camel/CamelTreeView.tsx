@@ -54,7 +54,6 @@ export const CamelTreeView: React.FunctionComponent = () => {
       setFilteredTree(
         MBeanTree.filter(tree.getTree(), (node: MBeanNode) => node.name.toLowerCase().includes(input.toLowerCase())),
       )
-      setExpanded(ExpansionValue.ExpandAll)
     }
   }
 
